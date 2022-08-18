@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Helvetica;
+}
+.main{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    height:auto;
+}
+.bgd{
+    width: 65%;
+    height: 100vh;
+    padding: 20px;
+   
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(56,62,184);
+background: linear-gradient(310deg, rgba(56,62,184,1) 30%, rgba(177,53,163,1) 80%);
+}
+.box1 img{
+ margin-bottom: 10px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    
+    
+    justify-content: center;
+}
+.box1p1{
+    font-size: 42px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.box1p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.bgdwithe{
+    width: 450px;
+    height: 100%;
+  
+    display: flex;
+    justify-content: center;
+}
+.b2img{
+    width: 166px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inptemail{
+    width: 100%;
+    height: 33px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    margin: 100px 0  30px 0 ;
+    background: none;
+    
+}
+input:focus,input:hover{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.btn1{
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3399cc;
+    border: none;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.b21{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn2{
+    background: none;
+    margin-top: 30px;
+    color: #3399cc;
+   border: 1px solid #3399cc;
+}
+.btn3{
+    background: none;
+    margin-top: 30px;
+    color: #000;
+   border: 1px solid gray;
+}
+.google{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+@media screen and (max-width:600px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    .bgd{
+        display: none;
+    }
+    .bgdwithe{
+        width: 450px;
+
+    }
+    
+}
